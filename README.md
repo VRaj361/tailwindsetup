@@ -46,7 +46,7 @@ Add the following script key to your `package.json` file:
 
    ```html
    "scripts": {
-    "start" : "vite"
+      "start" : "vite"
    }
    ```
 6. **Create Main CSS File:**
