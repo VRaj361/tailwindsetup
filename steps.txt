@@ -1,0 +1,43 @@
+Two options
+
+1) First options
+-> import script of tailwind CSS in html file
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+2) Second Option
+
+-> install node (check with npm command in terminal)
+
+-> run this below commands in terminal
+
+npm install -D tailwindcss postcss autoprefixer vite
+npx tailwindcss init -p
+
+-> Install the extension of Tailwind CSS with more downloads
+
+-> Add * in content of tailwind.config.js file 
+
+content: ["*"]
+
+-> Add script key in package.json file
+
+"scripts": {
+    "start": "vite"
+},
+
+-> Create main.css file and write 
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+and add this main.css in your main html file
+
+
+
+----------------------------------------------------
+
+for run the file write command in terminal 
+
+npm run start
